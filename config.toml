@@ -5,7 +5,7 @@ baseURL = "https://d0sl.org/"
 title = "d0sl semantic platform"
 theme = "godocs-1"
 # google analytics
-googleAnalytics = "" # example : UA-123-45
+googleAnalytics = "UA-150816518-2" # example : UA-123-45
 # disable language
 disableLanguages = ['Fr'] # disable language from here
 
@@ -77,10 +77,10 @@ icon_font = "Font Awesome 5 Free"
 
 #################### default parameters ################################
 [params]
-logo = "images/d0sl-logo-new.png"
+logo = "images/d0sl-logo-70.png"
 favicon = "images/d0sl-favicon.png"
 # Meta data
-description = "d0SL is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE’s d0SL allows you to implement business logic of your system by using declarative logical specifications language."
+description = "d0SL is next generation of so called Business Rules Engines (BRE). Just like regular BRE’s d0SL allows you to implement business logic of your system by using declarative logical specifications language."
 author = "Petr Matyukov"
 # contact form action
 contact_form_action = "https://formspree.io/f/mgerlnaa" # contact form works with https://formspree.io
@@ -135,7 +135,7 @@ copyright = "Copyright© by [d0sl](https://d0sl.org) Group"
 # banner
 [Languages.en.banner]
 title = "d0sl Semantic Platform"
-subtitle = "d0SL is a next step generation of so called Business Rules Engines (BRE). Just like regular BRE’s d0SL allows you to implement business logic of your system by using declarative logical specifications language."
+subtitle = "d0SL is next generation of so called Business Rules Engines (BRE). Just like regular BRE’s d0SL allows you to implement business logic of your system by using declarative logical specifications language."
 image = "images/banner.jpg"
 
 # call to action
