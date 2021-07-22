@@ -91,10 +91,10 @@ enable = false
 preloader = "" # use jpg, png, svg or gif format.
 
 # Navigation button
-[[params.nav_button]]
-style = "outline" # available style: solid, outline
-label = "changelog"
-link = "changelog"
+# [[params.nav_button]]
+# style = "outline" # available style: solid, outline
+# label = "changelog"
+# link = "changelog"
 
 [[params.nav_button]]
 style = "solid" # available style: solid, outline
