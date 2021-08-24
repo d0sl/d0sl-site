@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration status="INFO" packages="org.d0sl.animat.cheese">
+    <Appenders>
+        <CheeseLogger name="cheese">
+            <PatternLayout
+                    pattern="%d{HH:mm:ss} %level: %m%n"/>
+        </CheeseLogger>
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n" />
+        </Console>
+        <File name="file" fileName="cheese.log" immediateFlush="false" append="false">
+            <PatternLayout pattern="%d{yyy-MM-dd HH:mm:ss.SSS} [%t] %-5level %logger{36} - %msg%n"/>
+        </File>    </Appenders>
+    <Loggers>
+        <Root level="debug" additivity="false">
+            <AppenderRef ref="cheese"/>
+<!--            <AppenderRef ref="console"/>-->
+            <AppenderRef ref="file"/>
+        </Root>
+    </Loggers>
+</Configuration>
