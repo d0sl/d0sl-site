@@ -1,5 +1,6 @@
 ######################## default configuration ####################
-# baseURL = "https://demo.gethugothemes.com/godocs/style-1/"
+defaultContentLanguage = 'en'
+
 baseURL = "https://d0sl.org/"
 
 title = "d0sl semantic platform"
@@ -123,12 +124,74 @@ link = "https://github.com/d0sl/d0SDK"
 # icon = "fab fa-linkedin" # fontawesome icon : https://fontawesome.com/icons
 # link = "#"
 
+################################### Russian language #####################################
+[Languages.ru]
+languageName = "Ru"
+languageCode = "ru-ru"
+weight = 1
+# copyright
+copyright = "Copyright© by [d0sl](https://d0sl.org) Group"
+
+# banner
+[Languages.ru.banner]
+title = "Семантическая Платформа d0sl"
+subtitle = "Платформа d0sl позволяет управлять логикой поведения сложных систем, используя язык d0sl, понятный специалисту в предметной области. Платформа имеет широкое поле применения — от бизнес-процессов предприятия, до управления проектами или поведением автономных систем, включая системы Искусственного Интеллекта и Интернета Вещей."
+image = "images/banner.jpg"
+
+# call to action
+[Languages.ru.call_to_action]
+enable = true
+title = "Остались вопросы?"
+image = "images/cta-illustration.jpg"
+content = "Спросите нас! Мы проконсультируем как по техническим тонкостям установки платформы, так и по ее бизнес-применению для самого широкого круга задач."
+
+  # call to action button
+  [Languages.ru.call_to_action.button]
+  enable = "true"
+  label = "Контакты"
+  link = "contact"
+
+
+############## Russian navigation ###############
+[[Languages.ru.nav_button]]
+style = "solid" # available style: solid, outline
+label = "Контакты"
+link = "contact"
+
+
+# main menu
+[[Languages.ru.menu.main]]
+name = "Главная"
+url = ""
+weight = 1
+
+[[Languages.ru.menu.main]]
+name = "Github"
+url = "https://github.com/d0sl/d0SDK"
+weight = 2
+
+
+# footer menu
+[[Languages.ru.menu.footer]]
+name = "История"
+url = "changelog"
+weight = 1
+
+[[Languages.ru.menu.footer]]
+name = "Контакты"
+url = "contact"
+weight = 2
+
+[[Languages.en.menu.footer]]
+name = "Github"
+url = "https://github.com/d0sl/d0SDK"
+weight = 3
 
 ################################### English language #####################################
 [Languages.en]
 languageName = "En"
 languageCode = "en-us"
-weight = 1
+weight = 3
 # copyright
 copyright = "Copyright© by [d0sl](https://d0sl.org) Group"
 
@@ -180,7 +243,6 @@ weight = 2
 name = "Github"
 url = "https://github.com/d0sl/d0SDK"
 weight = 3
-
 
 ################################### French language #####################################
 [Languages.fr]
@@ -238,3 +300,4 @@ weight = 2
 name = "Github"
 url = "https://github.com/d0sl/d0SDK"
 weight = 3
+
