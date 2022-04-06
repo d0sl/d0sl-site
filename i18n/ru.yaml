@@ -1,0 +1,29 @@
+- id: search
+  translation: Поиск
+
+- id: search_placeholder
+  translation: Найти...
+
+- id: topics
+  translation: Выберите раздел
+
+- id: first_name
+  translation: Имя
+
+- id: last_name
+  translation: Фамилия
+
+- id: email
+  translation: Email
+
+- id: contact_reason
+  translation: Тема обращения
+
+- id: write_message
+  translation: Ваше сообщение
+
+- id: send
+  translation: Отправить
+
+- id: search_result
+  translation: Результат поиска для
